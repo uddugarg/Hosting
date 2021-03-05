@@ -1,0 +1,64 @@
+.header{
+    display: flex;
+    position: fixed;
+    z-index: 3;
+    background-color: rgb(44, 52, 87);
+    width: 100%;
+    justify-content: space-between;
+    align-self: center;
+    height: 60px;
+    object-fit: contain;
+}
+
+.header__logo{
+    display: flex;
+    align-items: center;
+}
+
+.header__logo > img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.header__logo > h2{
+    color: skyblue;
+    margin-top: 9px;
+    margin-left: -14px;
+}
+
+.header__btn{
+    margin-right: auto !important;
+    margin-top: 5px !important;
+    margin-left: 10px !important;
+    padding: 10px !important;
+    color: skyblue !important;
+}
+
+.header__navigation{
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.header__signinBtn{
+    color: white !important;
+    border: 1px solid skyblue !important;
+}
+
+.header__signupBtn{
+    margin-left: 15px !important;
+    background-color: springgreen !important;
+}
+
+.header__search{
+    margin-right: auto;
+    margin-left: 20%;
+}
+
+#filled-basic{
+    width: 400px;
+    height: 5px;
+    background-color: gainsboro;
+    margin-top: 8px;
+}

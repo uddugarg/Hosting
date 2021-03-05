@@ -1,0 +1,199 @@
+.post{
+    position: absolute;
+    top: 70px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+}
+
+a{
+    text-decoration: none;
+}
+
+.post__card{
+    width: 350px;
+    height: 450px auto;
+    object-fit: contain;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    background-color: rgb(48, 66, 80) !important;
+    border-radius: 0px 12px 0px 0px !important;
+}
+
+.post__media{
+    width: 350px;
+    height: 200px;
+    object-fit: contain;
+    margin-top: 10px;
+}
+
+.post__content{
+    position: absolute;
+    font-size: 12px;
+}
+
+.post__actions{
+    display: flex;
+    position: absolute;
+    width: 340px;
+    height: 20px;
+    justify-content: space-between;
+    margin-top: 7px;
+    background-color: white;
+}
+
+.post__delete{
+    margin-left: 93%;
+    margin-bottom: -7px;
+    z-index: 9;
+    background-color: turquoise;
+    border-radius: 100px;
+    padding: 2px;
+}
+
+.postDetails{
+  background-color: rgb(64, 96, 114);
+  width: 100%;
+  height: 400vh;
+}
+
+.postDetails__left{
+    position: absolute;
+    top: 25%;
+    display: flex;
+    flex-direction: column !important;
+    left: 5%;
+}
+
+.postDetails__action1{
+    display: flex;
+    width: 50px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid rgb(61, 79, 90);
+    height: 200px;
+    color: wheat !important;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.postDetails__action2{
+    display: flex;
+    width: 50px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid rgb(61, 79, 90);
+    height: 100px;
+    color: wheat !important;
+    border-radius: 10px;
+}
+
+.postDetails__mid{
+    width: 800px;
+    position: absolute;
+    top: 17%;
+    left: 12%;
+}
+
+.postDetails__user{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.postDetails__user > span{
+    margin-left: 8px;
+    color: wheat;
+}
+
+.postDetails__img > img{
+    width: 100%;
+}
+
+.postDetails__content{
+    margin-top: 5%;
+    letter-spacing: 2px;
+    text-align: left;
+    margin-left: -29px;
+}
+
+.postDetails__commentBox{
+    margin-top: 20px;
+}
+
+.postDetails__comment{
+    width: 100%;
+    border: 1px solid skyblue !important;
+}
+
+.postDetails__right{
+    position: absolute;
+    width: 300px;
+    top: 17%;
+    left: 70%;
+}
+
+.postDetails__posts{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.postDetails__posts > img{
+    width: 100%;
+}
+
+.postDetails__postContent{
+    width: 100px;
+    height: 150px;
+}
+
+.h5{
+    font-size: 14px !important;
+
+}
+
+.postDetails__delete{
+    margin-left: auto !important;
+    border-radius: 100px;
+    background-color: turquoise;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.postDetails__tags{
+    background-image: url(https://www.xmple.com/wallpaper/white-blue-gradient-linear-1920x1080-c2-ffffff-00bfff-a-270-f-14.svg);
+    text-align: left;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    border-radius: 50px;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.comment{
+    margin-top: 30px;
+    position: absolute;
+    width: 100%;
+}
+
+.comment__list{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightskyblue;
+    flex: 0.8 !important;
+}
+
+.comment__info{
+    display: flex;
+    flex-direction: column;
+}
+
+.comment__info > h5{
+    margin-top: 10px;
+    margin-bottom: -10px;
+    margin-left: 20px;
+}
